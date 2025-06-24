@@ -1,0 +1,54 @@
+.company-div{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    padding: 30px;
+    gap: 30px;
+    /* background-color: blue; */
+}
+.company-img{
+    background-image: url(../images/company-img.jpg);
+    background-size: cover;
+    height: 96%;
+    width: 30%;
+}
+.value-img{
+    background-image: url(../images/value-img.jpg);
+    background-size: cover;
+    height: 96%;
+    width: 30%;
+}
+.headquarter-img{
+    background-image: url(../images/Headquarter-img.jpg);
+    background-size: cover;
+    height: 96%;
+    width: 30%;
+}
+.Commitment-img{
+    background-image: url(../images/Commitment-img.jpg);
+    background-size: cover;
+    height: 96%;
+    width: 30%;
+}
+.content{
+    display: flex;
+    background-color: aliceblue;
+    padding: 15px;
+    flex-direction: column;
+    width: 45%;
+    height: 100%;
+    font-size: larger;
+}
+button{
+    background-color: white;
+    border-radius: 10px;
+    width: 10vw;
+    color: blue;
+    text-decoration: none;
+    border: 3px solid;
+    padding: 7px;
+}
+button:hover{
+    color: white;
+    background-color: burlywood;
+}
