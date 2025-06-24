@@ -7,8 +7,6 @@ const AboutUs = () => {
     <section>
       <Navbar />
 
-      <main>About Us Page</main>
-
       <section className='company-div'>
           <div className='company-img'></div>
           <div className='content'>
