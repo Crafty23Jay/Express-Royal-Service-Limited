@@ -53,7 +53,7 @@
 }
 .service-cont{
     width: 78vw;
-    height: 90%;
+    height: 45rem;
     border: 1px solid black;
     margin: auto;
     margin-top: 3rem;
@@ -70,16 +70,16 @@
 }
 .each-service{
     display: flex;
-    justify-content: space-between;
+    gap: 2rem;
 }
 .each-img{
-    width: 8rem;
-    height: 8rem;
+    width: 9rem;
+    height: 9rem;
     background-color: white;
     border-radius: 50%;
 }
 .each-title{
-    width: 80%;
+    width: 70%;
 }
 .each-title>h3{
     color: #142850;
@@ -99,24 +99,75 @@
 .contact-card{
     width: 15rem;
     height: 98%;
-    background-color: gold;
+    background-color: #BDE1F4;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0.9rem;
 }
 .border-cont{
-    width: 95%;
+    width: 92%;
     height: 80%;
     border: 2px solid #142850;
     border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.contact-img{
+    color:rgb(46, 167, 207);
+    font-size: 3rem;
+}
+.contact-p{
+    width: 90%;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #142850;
+    letter-spacing: 0.15rem;
+    line-height: 2rem;
+}
+.contact-h6{
+    color: #142850;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2rem;
+    width: 80%;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-h1{
+        color: #142850;
+        font-size: 1.2rem;
+        width: 85%;
+}
+.contact-h5{
+    color: #142850;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 2rem;
+    width: 80%;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
 
 
-@media (max-width:1000px) {
 
+@media (max-width:1000px) {
+    .service-cont{
+        width: 90vw;
+    }
+    .each-img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .contact-card{
+        width: 30%;
+    }
 }
 
 
@@ -136,6 +187,9 @@
     .services>p{
         font-size: 1.1rem;
         line-height: 1.5rem;
+    }
+    .service-cont{
+        height: 55rem;
     }
 }
 

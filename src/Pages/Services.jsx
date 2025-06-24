@@ -4,6 +4,7 @@ import Navbar from '../Components/Navbar'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
+import { SlCallIn } from "react-icons/sl";
 
 const Services = () => {
      useEffect(()=> {
@@ -70,7 +71,13 @@ const Services = () => {
                     </div>
                 </div>
                 <div class="contact-card">
-                    <div class="border-cont"></div>
+                    <div class="border-cont">
+                      <SlCallIn class="contact-img" />
+                      <p class="contact-p">BISHUENGINE <span>ERING</span> TECHNICAL SUPPORT</p>
+                      <h6 class="contact-h6">Feel free to contact our technical support services and our dedicated staff will assist you.</h6>
+                      <h1 class="contact-h1">+237 683 74 63 51</h1>
+                      <h5 class="contact-h5">Phone: 09:00 - 17:00 Intercom: 24 / 24</h5>
+                    </div>
                 </div>
             </main>
         </section>

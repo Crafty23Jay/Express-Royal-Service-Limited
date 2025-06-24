@@ -33,6 +33,9 @@
 .page-link:hover{
     color: #a5b9e4;
 }
+.page-link:active{
+    color: #b9c8e7;
+}
 .logo{
     width: 3.5rem;
 }
