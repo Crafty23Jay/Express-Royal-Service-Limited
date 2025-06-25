@@ -6,60 +6,113 @@
 .company-div{
     display: flex;
     justify-content: center;
-    height: 60vh;
     padding: 30px;
+    width: 100vw;
     gap: 30px;
     /* background-color: blue; */
+    margin-bottom: 10vh;
 }
 .company-img{
     background-image: url(../images/company-img.jpg);
     background-size: cover;
-    height: 96%;
-    width: 30%;
+    height: 60vh;
+    width: 35%;
 }
 .value-img{
     background-image: url(../images/value-img.jpg);
     background-size: cover;
-    height: 96%;
-    width: 30%;
+    height: 60vh;
+    width: 35%;
 }
 .headquarter-img{
     background-image: url(../images/Headquarter-img.jpg);
     background-size: cover;
-    height: 96%;
-    width: 30%;
+    height:  60vh;
+    width: 35%;
 }
 .Commitment-img{
     background-image: url(../images/Commitment-img.jpg);
     background-size: cover;
-    height: 96%;
-    width: 30%;
+    height:  60vh;
+    width: 35%;
 }
-.content{
+.content,.Commitment-content,.hq-content{
     display: flex;
     background-color: aliceblue;
-    padding: 15px;
+    padding: 50px;
     flex-direction: column;
-    width: 45%;
-    height: 100%;
+    width: 40%;
+    height: fit-content;
     gap: 10px;
     font-size: larger;
+    line-height: 26px;
     margin: 0;
 }
 button{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 25px;
     width: 10vw;
     color: blue;
     text-decoration: none;
-    border: 3px solid;
+    border: 1px solid;
     padding: 7px;
-    height: 30%;
+    height: 50px;
 }
 button:hover{
     color: white;
-    background-color: burlywood;
+    background-color: rgb(0, 119, 255);
 }
 h1{
     font-size: 35px;
+}
+.Commitment-content>p,.hq-content>p{
+    font-weight: 45px;
+    line-height: 35px;
+    font-size: x-large;
+}
+.hq-content>p{
+    font-weight: 50px;
+    line-height: 40px;
+    font-size: xx-large;
+}
+@media (max-width:418px){
+    .company-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 100vw;
+    gap: 30px;
+    /* background-color: blue; */
+    margin-bottom: 10vh;
+}
+.company-img,.value-img,.value-img,.Commitment-img,.headquarter-img{
+    height: 60vh;
+    width: 85%;
+}
+.content,.Commitment-content,.hq-content{
+    display: flex;
+    background-color: aliceblue;
+    padding: 50px;
+    flex-direction: column;
+    width: 60%;
+    height: fit-content;
+    gap: 10px;
+    font-size: larger;
+    line-height: 26px;
+    margin: 0;
+}
+h1{
+    font-size: 25px;
+}
+button{
+    background-color: white;
+    border-radius: 25px;
+    width: 50vw;
+    color: blue;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 7px;
+    height: 50px;
+}
 }
