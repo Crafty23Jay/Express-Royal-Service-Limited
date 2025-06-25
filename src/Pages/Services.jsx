@@ -5,7 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 import { SlCallIn } from "react-icons/sl";
-// import heroBg from '../images/Hero.bg.jpg'
+import { RiCustomerService2Line } from "react-icons/ri";
 
 const Services = () => {
      useEffect(()=> {
@@ -78,7 +78,7 @@ const Services = () => {
                       <h6 class="contact-h6">Feel free to contact our technical support services and our dedicated staff will assist you.</h6>
                       <h1 class="contact-h1">+237 683 74 63 51</h1>
                       <h5 class="contact-h5">Phone: 09:00 - 17:00 Intercom: 24 / 24</h5>
-                      <button class="contact-btn"><p>TECH. SUPPORT </p></button>
+                      <button class="contact-btn">TECH. SUPPORT <RiCustomerService2Line class="contact-icon" /></button>
                     </div>
                 </div>
             </main>
