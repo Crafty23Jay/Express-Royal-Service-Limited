@@ -77,42 +77,42 @@ h1{
 }
 @media (max-width:418px){
     .company-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px;
-    width: 100vw;
-    gap: 30px;
-    /* background-color: blue; */
-    margin-bottom: 10vh;
-}
-.company-img,.value-img,.value-img,.Commitment-img,.headquarter-img{
-    height: 60vh;
-    width: 85%;
-}
-.content,.Commitment-content,.hq-content{
-    display: flex;
-    background-color: aliceblue;
-    padding: 50px;
-    flex-direction: column;
-    width: 60%;
-    height: fit-content;
-    gap: 10px;
-    font-size: larger;
-    line-height: 26px;
-    margin: 0;
-}
-h1{
-    font-size: 25px;
-}
-button{
-    background-color: white;
-    border-radius: 25px;
-    width: 50vw;
-    color: blue;
-    text-decoration: none;
-    border: 1px solid;
-    padding: 7px;
-    height: 50px;
-}
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+        width: 100vw;
+        gap: 30px;
+        /* background-color: blue; */
+        margin-bottom: 10vh;
+    }
+    .company-img,.value-img,.value-img,.Commitment-img,.headquarter-img{
+        height: 60vh;
+        width: 85%;
+    }
+    .content,.Commitment-content,.hq-content{
+        display: flex;
+        background-color: aliceblue;
+        padding: 50px;
+        flex-direction: column;
+        width: 60%;
+        height: fit-content;
+        gap: 10px;
+        font-size: larger;
+        line-height: 26px;
+        margin: 0;
+    }
+    h1{
+        font-size: 25px;
+    }
+    button{
+        background-color: white;
+        border-radius: 25px;
+        width: 50vw;
+        color: blue;
+        text-decoration: none;
+        border: 1px solid;
+        padding: 7px;
+        height: 50px;
+    }
 }
