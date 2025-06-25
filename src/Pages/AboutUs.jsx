@@ -33,7 +33,7 @@ const AboutUs = () => {
 
        <section className='company-div'>
           <div className='headquarter-img'></div>
-          <div className='content'>
+          <div className='hq-content'>
             <h1>Our HeadQuarters</h1>
             <p>BONADIBONG
                AKWA EN FACE ECOBANK MARCHE CONGO, DOUALA - CAMEROON
@@ -44,7 +44,7 @@ const AboutUs = () => {
       </section>
 
          <section className='company-div'>
-          <div className='content'>
+          <div className='Commitment-content'>
             <h1>Our Commitment</h1>
             <p>We have not other commitment than to render happiness to our corporate, organisational and individual clients. We are committed to rendering 
               the best of our expertise to enhance their organisations and businesses. This is our passion - to be of the best service to our customers.
