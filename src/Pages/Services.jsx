@@ -5,6 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 import { SlCallIn } from "react-icons/sl";
+// import heroBg from '../images/Hero.bg.jpg'
 
 const Services = () => {
      useEffect(()=> {
@@ -37,7 +38,7 @@ const Services = () => {
                                 and certify welders, Sheet metalist and pipe fitters. We train welders in: SMAW, 
                                 TIG and MIG. The various certification houses we use are SGS, ABS, Veritas and most 
                                 of our workers, mostly welders are being certified by these companies that are 
-                                represented in  Camroon. We do placement of these welders and fitters or projects 
+                                represented in  Cameroon. We do placement of these welders and fitters or projects 
                                 onshore and offshore if demanded.
                             </p>
                         </div>
@@ -77,6 +78,7 @@ const Services = () => {
                       <h6 class="contact-h6">Feel free to contact our technical support services and our dedicated staff will assist you.</h6>
                       <h1 class="contact-h1">+237 683 74 63 51</h1>
                       <h5 class="contact-h5">Phone: 09:00 - 17:00 Intercom: 24 / 24</h5>
+                      <button class="contact-btn"><p>TECH. SUPPORT </p></button>
                     </div>
                 </div>
             </main>
