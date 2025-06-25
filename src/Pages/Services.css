@@ -1,6 +1,6 @@
 .hero{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +35,7 @@
     background-color: #F3D5D5;
     width: 100vw;
     height: fit-content;
-    padding: 3rem 0;
+    padding: 3rem 0 0 0;
 }
 .services>h1{
     text-align: center;
@@ -56,16 +56,46 @@
     font-style: italic;
     margin-top: 0.8rem;
     letter-spacing: 0.1rem;
+    margin-bottom: 3rem;
 }
+
+
+.service-sec_1{
+    width: 100vw;
+    height: 50rem;
+    background-color: #F3D5D5;
+}
+.service-sec_2{
+    width: 100vw;
+    height: 50rem;
+    background-color: #B3D5E9;
+}
+.service-sec_3{
+    width: 100vw;
+    height: 54rem;
+    background-color: #A18EE7;
+}
+
+
 .service-cont{
     width: 74vw;
     height: 45rem;
     margin: auto;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+
+#service-cont_2{
+    height: 45rem;
+    border: 1px solid black;
+}
+#service-cont_3{
+    height: 52rem;
+}
+
 .service-list{
     width: 70%;
     height: 90%;
@@ -84,7 +114,14 @@
     aspect-ratio: 1/1;
     background-color: white;
     border-radius: 50%;
-    box-shadow: 0px 0px 4px #142850a8;
+    box-shadow: 0px 0px 5px #142850a8;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+.each-img>img{
+    height: 100%;
+    height: 100%;
 }
 .each-title{
     width: 70%;
@@ -97,6 +134,9 @@
 .each-title>p{
     color: #1e3c79;
     width: 100%;
+}
+.each-title>h4{
+    color: #00256e;
 }
 
 
@@ -113,6 +153,15 @@
     justify-content: center;
     border-radius: 0.9rem;
 }
+
+
+#contact-card_2{
+    background-color: black;
+}
+#contact-card_3{
+    background-color: #E2E78E;
+}
+
 .border-cont{
     width: 92%;
     height: 80%;
@@ -176,6 +225,7 @@
 
 }
 .contact-btn:hover{
+    cursor: pointer;
     background-color: #F3D5D5;
     color: #00256e;
     border: 1.5px solid #00256e;
@@ -239,6 +289,13 @@
     .services{
         background-color: white;
     }
+
+
+    .service-sec_1, .service-sec_2, .service-sec_3{
+        background-color: transparent;
+    }
+
+
     .service-cont{
         flex-direction: column;
         height: fit-content;
@@ -310,7 +367,7 @@
 
 @media (max-width:418px) {
     .hero{
-        height: 90vh;
+        height: 87vh;
     }
    .hero-cont>h1{
     font-size: 2.2rem;

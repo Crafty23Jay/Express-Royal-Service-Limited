@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import '../Pages/AboutUs.css'
+import Footer from '../Components/Footer'
 
 const AboutUs = () => {
   return (
@@ -54,6 +55,7 @@ const AboutUs = () => {
             <div className='Commitment-img'></div>
       </section>
 
+    <Footer />
       
     </section>
   )
