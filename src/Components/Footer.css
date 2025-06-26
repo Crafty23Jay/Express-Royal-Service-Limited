@@ -26,14 +26,21 @@
     color: #239DDB;
 }
 .f-icon{
-    font-size: 5rem;
+    font-size: 4.5rem;
     color: white;
 }
 .dtl-h4{
-    font-size: 1rem;
+    font-size: 0.9rem !important;
     width: 80%;
     font-style: italic;
     text-wrap: wrap;
+}
+
+.div-1-dtl>h2{
+    font-size: 1.3rem;
+}
+.div-1-dtl>h4{
+    font-size: 1rem;
 }
 
 
