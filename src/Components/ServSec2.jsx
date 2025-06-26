@@ -8,8 +8,8 @@ import welding from '../images/welding.jpg';
 const ServSec2 = () => {
   return (
      <section class="service-sec_2">
-        <main class="service-cont">
-            <div class="service-list">
+        <main class="service-cont" id='service-cont_2'>
+            <div class="service-list" id='service-list_3'>
                 <div class="each-service">
                     <span class="each-img">
                         <img src={welding} alt="welding-img" />

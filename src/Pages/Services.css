@@ -90,7 +90,6 @@
 
 #service-cont_2{
     height: 45rem;
-    border: 1px solid black;
 }
 #service-cont_3{
     height: 52rem;
@@ -280,25 +279,35 @@
         font-size: 1.1rem;
         line-height: 1.5rem;
     }
-    .service-cont{
-        height: 55rem;
-    }
 
     /* mobile query */
 
     .services{
         background-color: white;
+        height: fit-content !important;
     }
+    
 
 
-    .service-sec_1, .service-sec_2, .service-sec_3{
-        background-color: transparent;
+    .service-sec_1{
+        height: fit-content;
+        /* background-color: transparent; */
+    }
+    .service-sec_2{
+        height: fit-content;
+        /* background-color: transparent; */
+    }
+    .service-sec_3{
+        height: fit-content;
+        /* background-color: transparent; */
     }
 
 
     .service-cont{
+        height: fit-content !important;
         flex-direction: column;
         height: fit-content;
+        padding: 2rem 0;
     }
     .service-list{
         width: 100%;
