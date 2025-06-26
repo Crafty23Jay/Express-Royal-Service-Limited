@@ -1,9 +1,9 @@
 import React from 'react'
 import { RiCustomerService2Line } from 'react-icons/ri'
 import { SlCallIn } from 'react-icons/sl'
-import scaffold from '../images/scaffolding.jpg';
-import tank from '../images/tank.webp';
-import welding from '../images/welding.jpg';
+import logistics from '../images/logistics.jpg'
+import gabaging from '../images/gabaging.jpg'
+import engineering from '../images/civil-engineering.jpg'
 
 const ServSec3 = () => {
   return (
@@ -12,7 +12,7 @@ const ServSec3 = () => {
             <div class="service-list" id='service-list_3'>
                 <div class="each-service">
                     <span class="each-img">
-                        <img src={welding} alt="" />
+                        <img src={logistics} alt="logistics-img" />
                     </span>
 
                     <div class="each-title">
@@ -27,7 +27,7 @@ const ServSec3 = () => {
                 </div>
                 <div class="each-service">
                     <span class="each-img">
-                        <img src={tank} alt="welding img" />
+                        <img src={gabaging} alt="bargaging-img" />
                     </span>
 
                     <div class="each-title">
@@ -41,7 +41,7 @@ const ServSec3 = () => {
                 </div>
                 <div class="each-service">
                     <span class="each-img">
-                        <img src={scaffold} alt="" />
+                        <img src={engineering} alt="civil-engineering-img" />
                     </span>
 
                     <div class="each-title">

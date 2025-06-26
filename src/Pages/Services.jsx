@@ -8,6 +8,7 @@ import Footer from '../Components/Footer';
 import ServSec1 from '../Components/ServSec1';
 import ServSec2 from '../Components/ServSec2';
 import ServSec3 from '../Components/ServSec3';
+import OnlineChat from '../Components/OnlineChat';
 
 
 const Services = () => {
@@ -36,6 +37,8 @@ const Services = () => {
             <ServSec3 />
            
         </section>
+
+        <OnlineChat />
 
         <Footer />
     </section>

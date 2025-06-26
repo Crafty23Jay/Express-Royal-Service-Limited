@@ -124,6 +124,7 @@
 }
 .each-title{
     width: 70%;
+    text-align: center;
 }
 .each-title>h3{
     color: #142850;
@@ -136,6 +137,7 @@
 }
 .each-title>h4{
     color: #00256e;
+    margin-top: 0.6rem;
 }
 
 
@@ -291,15 +293,15 @@
 
     .service-sec_1{
         height: fit-content;
-        /* background-color: transparent; */
+        background-color: transparent;
     }
     .service-sec_2{
         height: fit-content;
-        /* background-color: transparent; */
+        background-color: transparent;
     }
     .service-sec_3{
         height: fit-content;
-        /* background-color: transparent; */
+        background-color: transparent;
     }
 
 
@@ -386,4 +388,5 @@
         height: 100%;
         aspect-ratio: 1/1.8;
     }
+    
 }
