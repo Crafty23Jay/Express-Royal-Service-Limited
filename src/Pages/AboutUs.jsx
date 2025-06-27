@@ -2,11 +2,14 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import '../Pages/AboutUs.css'
 import Footer from '../Components/Footer'
-
+import OnlineChat from '../Components/OnlineChat';
+import HeroAbout from '../Components/HeroAbout';
 const AboutUs = () => {
   return (
     <section>
       <Navbar />
+
+      <HeroAbout />
 
       <section className='company-div'>
           <div className='company-img'></div>
@@ -34,7 +37,7 @@ const AboutUs = () => {
 
        <section className='company-div'>
           <div className='headquarter-img'></div>
-          <div className='hq-content'>
+          <div className='content' id='head-q-content'>
             <h1>Our HeadQuarters</h1>
             <p>BONADIBONG
                AKWA EN FACE ECOBANK MARCHE CONGO, DOUALA - CAMEROON
@@ -45,7 +48,7 @@ const AboutUs = () => {
       </section>
 
          <section className='company-div'>
-          <div className='Commitment-content'>
+          <div className='content'>
             <h1>Our Commitment</h1>
             <p>We have not other commitment than to render happiness to our corporate, organisational and individual clients. We are committed to rendering 
               the best of our expertise to enhance their organisations and businesses. This is our passion - to be of the best service to our customers.
@@ -54,7 +57,7 @@ const AboutUs = () => {
           </div>
             <div className='Commitment-img'></div>
       </section>
-
+    <OnlineChat />
     <Footer />
       
     </section>

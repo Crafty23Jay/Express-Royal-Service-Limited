@@ -1,80 +1,111 @@
-*{
-    margin: 0;
-    padding: 0;
-    gap: 0;
-}
 .company-div{
     display: flex;
     justify-content: center;
-    padding: 30px;
     width: 100vw;
     gap: 30px;
     /* background-color: blue; */
     margin-bottom: 5vh;
+    margin-top: 3rem;
 }
 .company-img{
-    background-image: url(../images/company-img.jpg);
+    background-image: url(../images/shipchandling.jpg);
     background-size: cover;
-    height: 60vh;
-    width: 35%;
 }
 .value-img{
-    background-image: url(../images/value-img.jpg);
+    background-image: url(../images/ship-2.jpg);
     background-size: cover;
-    height: 60vh;
-    width: 35%;
 }
 .headquarter-img{
-    background-image: url(../images/Headquarter-img.jpg);
+    background-image: url(../images/hero-3-bg.jpg);
     background-size: cover;
-    height:  60vh;
-    width: 35%;
+    
 }
 .Commitment-img{
-    background-image: url(../images/Commitment-img.jpg);
+    background-image: url(../images/mechanics.jpg);
     background-size: cover;
-    height:  60vh;
-    width: 35%;
+    
 }
-.content,.Commitment-content,.hq-content{
+
+.company-img,.value-img,.value-img,.Commitment-img,.headquarter-img{
+    width: 40%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    margin-top: 2rem;
+}
+
+.content{
     display: flex;
     background-color: aliceblue;
-    padding: 50px;
+    padding: 1.5rem 1rem;
     flex-direction: column;
     width: 40%;
     height: fit-content;
-    gap: 10px;
+    gap: 1.5rem;
     font-size: larger;
     line-height: 26px;
     margin: 0;
 }
+.content>h1{
+    margin-left: 1rem !important;
+    margin: 0;
+    color: #00256e;
+}
+.content>p{
+    width: 100%;
+    font-size: 1rem;
+    padding: 0 0.7rem;
+    margin: 0;
+}
+
+#head-q-content>p{
+    font-size: 1.35rem;
+}
+
+
 button{
     background-color: white;
     border-radius: 25px;
-    width: 10vw;
+    width: 11rem;
+    height: 3rem;
     color: blue;
     text-decoration: none;
     border: 1px solid;
     padding: 7px;
-    height: 50px;
+    margin: auto;
 }
 button:hover{
     color: white;
     background-color: rgb(0, 119, 255);
+    transition: 0.4s ease;
 }
 h1{
-    font-size: 35px;
+    font-size: 32px;
+    line-height: 2rem;
 }
-.Commitment-content>p,.hq-content>p{
-    font-weight: 45px;
-    line-height: 35px;
-    font-size: x-large;
+
+@media (max-width:640px){
+    .company-div{
+       gap: 0.5rem;
+    }
+    .content{
+        width: 48%;
+    }
+    .content>h1{
+        font-size: 1.5rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .content>p{
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    #head-q-content>p{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
 }
-.hq-content>p{
-    font-weight: 50px;
-    line-height: 40px;
-    font-size: xx-large;
-}
+
 @media (max-width:418px){
     .company-div{
         display: flex;
@@ -84,22 +115,23 @@ h1{
         width: 100vw;
         gap: 30px;
         /* background-color: blue; */
-        margin-bottom: 10vh;
+        /* margin-bottom: 10vh; */
     }
     .company-img,.value-img,.value-img,.Commitment-img,.headquarter-img{
-        height: 60vh;
         width: 85%;
+        height: 100%;
+        aspect-ratio: 1/1;
     }
-    .content,.Commitment-content,.hq-content{
+    .content{
         display: flex;
         background-color: aliceblue;
-        padding: 50px;
+        padding: 50px 25px;
         flex-direction: column;
-        width: 60%;
+        width: 70%;
         height: fit-content;
-        gap: 10px;
+        gap: 18px;
         font-size: larger;
-        line-height: 26px;
+        line-height: 22px;
         margin: 0;
     }
     h1{

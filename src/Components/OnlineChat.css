@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     gap: 0.25rem;
+    z-index: 15;
 }
 .rectangle{
     width: 7.5rem;
