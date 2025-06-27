@@ -10,12 +10,12 @@ const ServSec1 = () => {
     <section class="service-sec_1">
         <main class="service-cont" id='service-cont_1'>
             <div class="service-list" id='service-list_1'>
-                <div class="each-service">
+                <div class="each-service" id='welding'>
                     <span class="each-img">
                         <img src={welding} alt="" />
                     </span>
 
-                    <div class="each-title">
+                    <div class="each-title" >
                         <h3>WELDING</h3>
                         <p>We  have a Welding training centre in Bonaberi, Douala Cameron, where we train 
                             and certify welders, Sheet metalist and pipe fitters. We train welders in: SMAW, 
@@ -27,7 +27,7 @@ const ServSec1 = () => {
                     </div>
 
                 </div>
-                <div class="each-service">
+                <div class="each-service" id='tank'>
                     <span class="each-img">
                         <img src={tank} alt="welding img" />
                     </span>
@@ -41,12 +41,12 @@ const ServSec1 = () => {
                     </div>
 
                 </div>
-                <div class="each-service">
+                <div class="each-service" id='scaffold'>
                     <span class="each-img">
                         <img src={scaffold} alt="" />
                     </span>
 
-                    <div class="each-title">
+                    <div class="each-title" >
                         <h3>SCAFFOLDING</h3>
                         <p>We have trained experts in scaffolding as well as specialized 
                             scaffolding material on rent at our site. According to the needs of any company, 
@@ -61,9 +61,9 @@ const ServSec1 = () => {
             <div class="contact-card" id='contact-card_1'>
                 <div class="border-cont">
                     <SlCallIn class="contact-img" />
-                    <p class="contact-p">BISHUENGINE <span>ERING</span> TECHNICAL SUPPORT</p>
+                    <p class="contact-p">EXPRESSROYAL <span>SERVICE</span> TECHNICAL SUPPORT</p>
                     <h6 class="contact-h6">Feel free to contact our technical support services and our dedicated staff will assist you.</h6>
-                    <h1 class="contact-h1">+237 683 74 63 51</h1>
+                    <h1 class="contact-h1">+237 679 97 72 91</h1>
                     <h5 class="contact-h5">Phone: 09:00 - 17:00 Intercom: 24 / 24</h5>
                     <button class="contact-btn">TECH. SUPPORT <RiCustomerService2Line class="contact-icon" /></button>
                 </div>

@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Services from './Pages/Services';
 import AboutUs from './Pages/AboutUs';
+import HeroSec from './Components/HeroSec';
 
 const App = () => {
   return (

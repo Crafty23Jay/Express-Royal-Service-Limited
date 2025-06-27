@@ -4,12 +4,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1428507c;
     background: url(/src/images/Hero-bg.jpg);
     background-size: cover;
+    background-color: #5f5f5f;
     background-blend-mode: multiply;
     background-position: 50%;
-    
+}
+
+
+.home-hero{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/src/images/home-hero-bg.png);
+    background-size: cover;
+    background-color: #5f5f5f;
+    background-blend-mode: multiply;
+    background-position: 50%;
 }
 .hero-cont{
     display: flex;
@@ -19,13 +32,14 @@
     gap: 2rem;
 }
 .hero-cont>h1{
-    color: #142850;
+    color: white;
     text-align: center;
     font-size: 3.5rem;
     max-width: 90%;
 }
 .hero-cont>p{
-    color: #142850;
+    /* color: #142850; */
+    color: white;
     text-align: center;
     font-size: 1.4rem;
     max-width: 90%;

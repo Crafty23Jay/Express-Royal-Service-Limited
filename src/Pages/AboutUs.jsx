@@ -38,7 +38,7 @@ const AboutUs = () => {
             <h1>Our HeadQuarters</h1>
             <p>BONADIBONG
                AKWA EN FACE ECOBANK MARCHE CONGO, DOUALA - CAMEROON
-               TEL.: +237 233 43 78 20
+               TEL.: +237 679 97 72 91
             </p>
             <button>View More</button>
           </div>
