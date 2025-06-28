@@ -62,7 +62,7 @@
 }
 
 
-button{
+.button{
     background-color: white;
     border-radius: 25px;
     width: 11rem;
@@ -70,8 +70,12 @@ button{
     color: blue;
     text-decoration: none;
     border: 1px solid;
-    padding: 7px;
+    padding: 0 7px;
     margin: auto;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 button:hover{
     color: white;

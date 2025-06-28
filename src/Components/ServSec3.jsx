@@ -55,7 +55,7 @@ const ServSec3 = () => {
                         <p>As already mentioned above we have trained and certify workers in so many domains.  A company 
                             just needs to place an order for these technicians and we will provide them under their control. 
                             For instance in SONARA Limbe where we have supplied manpower.We also supply manpower on-board 
-                            vessels,  petrol platforms and barges (riggers, roustabouts,welders mechanics, safety officers, 
+                            vessels,  petrol platforms and barges (riggers, roustabouts, welders mechanics, safety officers, 
                             electricians, scaffold experts, etc.)
                         </p>
                     </div>

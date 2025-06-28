@@ -20,12 +20,12 @@ import { GrUserWorker } from "react-icons/gr";
 import { PiAddressBook } from "react-icons/pi";
 import { TfiEmail } from "react-icons/tfi";
 import { RiContactsLine } from "react-icons/ri";
+import Nav from '../Components/Nav';
 
 const Home = () => {
     return(
         <section>
 
-        <Navbar />
         <HeroSec />
         <section>
             <div class="services">

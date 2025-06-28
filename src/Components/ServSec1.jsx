@@ -17,7 +17,7 @@ const ServSec1 = () => {
 
                     <div class="each-title" >
                         <h3>WELDING</h3>
-                        <p>We  have a Welding training centre in Bonaberi, Douala Cameron, where we train 
+                        <p>We have a Welding training centre in Bonaberi, Douala Cameron, where we train 
                             and certify welders, Sheet metalist and pipe fitters. We train welders in: SMAW, 
                             TIG and MIG. The various certification houses we use are SGS, ABS, Veritas and most 
                             of our workers, mostly welders are being certified by these companies that are 

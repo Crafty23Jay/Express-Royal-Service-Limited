@@ -1,10 +1,12 @@
 import React from 'react'
 import './HeroAbout.css'
 import { Link } from 'react-router-dom'
+import Nav from './Nav'
 
 const HeroAbout = () => {
   return (
     <section class="sec-3-cont">
+        <Nav />
         <h1>Express Royal Service Ltd.</h1>
         <p>
             The History of Reliability in Logistics, Shipping Services, Maintenance, 

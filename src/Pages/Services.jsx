@@ -9,6 +9,7 @@ import ServSec1 from '../Components/ServSec1';
 import ServSec2 from '../Components/ServSec2';
 import ServSec3 from '../Components/ServSec3';
 import OnlineChat from '../Components/OnlineChat';
+import Nav from '../Components/Nav';
 
 
 const Services = () => {
@@ -17,11 +18,12 @@ const Services = () => {
   }, [])
   return (
     <section>
-        <Navbar />
+        
         <main class="hero" id='services-hero'>
-            <div class="hero-cont">
+            <div class="hero-cont" id='service-hero'>
+                <Nav />
                 <h1>Great Shipping Services with Logistical Support & Technical Services</h1>
-                <p>Bishu Engineering puts together a rich array of Services supported by Certified Staff and 
+                <p>Express Royal Service Limited puts together a rich array of Services supported by Certified Staff and 
                     useful partnerships
                 </p>
             </div>
