@@ -5,11 +5,13 @@ import Nav from './Nav'
 
 const HeroSec = () => {
   return (
-    <main class="home-hero" id='ier'>
+    <main class="home-hero">
             <div class="hero-cont">
               <Nav />
               <h4>Express Royal Service Ltd.</h4>
-              <h1>Welcome to the great  world of shipping and logistics</h1>
+              <h1 id='home-header'>Welcome to the Great world of shipping services with logistics support & 
+                Technical services
+                </h1>
               <p>Express Royal Service Limited puts together a rich array of Services 
                 supported by Certified Staff and useful partnerships
               </p>

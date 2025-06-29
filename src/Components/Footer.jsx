@@ -3,6 +3,7 @@ import './Footer.css'
 import { PiPhoneCallLight } from "react-icons/pi";
 import { PiTimerLight } from "react-icons/pi";
 import { GoMail } from "react-icons/go";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -25,8 +26,8 @@ const Footer = () => {
             <GoMail class="f-icon"/>
             <div class="div-1-dtl">
                 <h2>Need some help?</h2>
-                <h4 class="dtl-h4">shipservices. royalexpress@gmail.com</h4>
-                <h4 class="dtl-h4">supply@royalexpress .com</h4>
+                <Link to="mailto:shipservices.royalexpress@gmail.com" class="email-link"><h4 class="dtl-h4">shipservices. royalexpress@gmail.com</h4></Link>
+                <Link to="mailto:supply@royalexpress.com" class="email-link"><h4 class="dtl-h4">supply@royalexpress .com</h4></Link>
             </div>
         </div>
     </section>
