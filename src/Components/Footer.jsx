@@ -11,7 +11,7 @@ const Footer = () => {
             <PiPhoneCallLight class="f-icon"/>
             <div class="div-1-dtl">
                 <h2>Have any questions?</h2>
-                <h4>+237 679 977 291</h4>
+                <h4>+237 675 99 72 91</h4>
             </div>
         </div>
         <div class="div-1">
@@ -26,6 +26,7 @@ const Footer = () => {
             <div class="div-1-dtl">
                 <h2>Need some help?</h2>
                 <h4 class="dtl-h4">shipservices. royalexpress@gmail.com</h4>
+                <h4 class="dtl-h4">supply@royalexpress .com</h4>
             </div>
         </div>
     </section>

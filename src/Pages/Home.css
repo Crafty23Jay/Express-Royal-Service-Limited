@@ -274,6 +274,7 @@ input:focus{
 @media (max-width: 600px) {
     .services {
         width: fit-content;
+        background-color: transparent !important;
     }
     .section{
         width: 85%;

@@ -131,6 +131,7 @@ const Home = () => {
                         <div class="new-details">
                             <p class="left-contact-details">Email</p>
                             <p class="details">shipservices. royalexpress@gmail .com</p>
+                            <p class="details">supply@royalexpress .com</p>
                         </div>
                     </div>
                     <div class="contact-details">
@@ -140,7 +141,7 @@ const Home = () => {
                         </div>
                         <div class="new-details">
                             <p class="left-contact-details">Phone</p>
-                            <p class="details">+237 679 97 72 91</p>
+                            <p class="details">+237 675 99 72 91</p>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ import Nav from './Nav'
 
 const HeroSec = () => {
   return (
-    <main class="home-hero">
+    <main class="home-hero" id='ier'>
             <div class="hero-cont">
               <Nav />
               <h4>Express Royal Service Ltd.</h4>
