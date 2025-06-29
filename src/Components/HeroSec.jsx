@@ -11,7 +11,7 @@ const HeroSec = () => {
               <h4>Express Royal Service Ltd.</h4>
               <h1 id='home-header'>Welcome to the Great world of shipping services with logistics support & 
                 Technical services
-                </h1>
+              </h1>
               <p>Express Royal Service Limited puts together a rich array of Services 
                 supported by Certified Staff and useful partnerships
               </p>

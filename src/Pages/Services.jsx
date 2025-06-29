@@ -22,8 +22,9 @@ const Services = () => {
         <main class="hero" id='services-hero'>
             <div class="hero-cont" id='service-hero'>
                 <Nav />
-                <h1>Great Shipping Services with Logistical Support & Technical Services</h1>
-                <p>Welcome to the Great world of shipping services with logistics support & Technical services
+                <h1>Welcome to the Great world of shipping services with logistics support & Technical services</h1>
+                <p>Express Royal Service Limited puts together a rich array of Services supported by 
+                    Certified Staff and useful partnerships
                 </p>
             </div>
         </main>

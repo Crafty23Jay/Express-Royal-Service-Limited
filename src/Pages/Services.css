@@ -1,6 +1,6 @@
 .hero{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,7 @@
 
 .home-hero{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,7 +217,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1.4rem;
+    gap: 1rem;
 }
 .contact-img{
     color:rgb(46, 167, 207);
@@ -289,6 +289,10 @@
 
 @media (max-width:1000px) {
 
+    .hero-cont>h1{
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
     .hero-cont>p{
         width: 80%;
     }
@@ -304,7 +308,7 @@
     }
     .border-cont{
         height: 90%;
-        gap: 1.7rem;
+        gap: 0.7rem;
     }
     .contact-btn{
         width: 90%;

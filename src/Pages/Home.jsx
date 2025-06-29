@@ -146,12 +146,14 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div class="right-contact">
+                <form class="right-contact" action="https://formsubmit.co/shipservices.royalexpress@gmail.com" method="POST">
                     <input type="text" placeholder="Name" class="contact-input" />
                     <input type="text" placeholder="Email" class="contact-input" />
                     <input type="text" placeholder="Message" class="contacts-input" />
-                    <button class="contact-button">SEND MESSAGE</button>
-                </div>
+
+                    <input type="hidden" name='_subject' value="New form message from Express Royal Service Ltd"/>
+                    <button class="contact-button" type='submit'>SEND MESSAGE</button>
+                </form>
             </div>
         </section>
 
