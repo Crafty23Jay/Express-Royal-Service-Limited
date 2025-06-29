@@ -187,9 +187,8 @@ body {
     /* margin-right: 200px; */
 }
 .contact-image{
-    width: 3rem;
+    font-size: 3rem;
     color: #239ddb;
-    height: fit-content;
 }
 
 
@@ -209,6 +208,7 @@ body {
  .details {
     font-size: 0.85rem;
     font-weight: 600;
+    width: 70%;
     /* color: rgb(12, 12, 104); */
     color: #239ddb;
     margin: 0;

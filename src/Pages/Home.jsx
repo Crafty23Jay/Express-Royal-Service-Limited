@@ -121,7 +121,7 @@ const Home = () => {
                         {/* <img src="images/address.png" class="contact-image" /> */}
                         <div class="new-details">
                             <p class="left-contact-details">Address</p>
-                            <p class="details">Douala, Cameroon</p>
+                            <p class="details">Ron point Bonatone diedo Douala Cameroon BP 47 36 Douala Cameroon </p>
                         </div>
                     </div>
                     <div class="contact-details">
@@ -147,9 +147,9 @@ const Home = () => {
                     </div>
                 </div>
                 <form class="right-contact" action="https://formsubmit.co/shipservices.royalexpress@gmail.com" method="POST">
-                    <input type="text" placeholder="Name" class="contact-input" />
-                    <input type="text" placeholder="Email" class="contact-input" />
-                    <input type="text" placeholder="Message" class="contacts-input" />
+                    <input type="text" placeholder="Name" class="contact-input" required />
+                    <input type="text" placeholder="Email" class="contact-input" required />
+                    <input type="text" placeholder="Message" class="contacts-input" required/>
 
                     <input type="hidden" name='_subject' value="New form message from Express Royal Service Ltd"/>
                     <button class="contact-button" type='submit'>SEND MESSAGE</button>

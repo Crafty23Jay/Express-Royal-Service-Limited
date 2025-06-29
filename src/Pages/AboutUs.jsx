@@ -43,9 +43,8 @@ const AboutUs = () => {
           <div className='headquarter-img'></div>
           <div className='content' id='head-q-content'>
             <h1>Our HeadQuarters</h1>
-            <p>BONADIBONG
-               AKWA EN FACE ECOBANK MARCHE CONGO, DOUALA - CAMEROON
-               TEL.: +237 679 97 72 91
+            <p>Ron point Bonatone diedo Douala Cameroon BP 47 36 Douala Cameroon
+               TEL.: +237 675 99 72 91
             </p>
             <Link to="/services" class="button">View More</Link>
           </div>
