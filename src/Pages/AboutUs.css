@@ -35,7 +35,7 @@
 
 .content{
     display: flex;
-    background-color: aliceblue;
+    background-color: rgb(180, 253, 170);
     padding: 1.5rem 1rem;
     flex-direction: column;
     width: 40%;
@@ -48,7 +48,7 @@
 .content>h1{
     margin-left: 1rem !important;
     margin: 0;
-    color: #00256e;
+    color: #063eaf;
 }
 .content>p{
     width: 100%;
@@ -67,7 +67,7 @@
     border-radius: 25px;
     width: 11rem;
     height: 3rem;
-    color: blue;
+    color: #063eaf;
     text-decoration: none;
     border: 1px solid;
     padding: 0 7px;
@@ -77,7 +77,7 @@
     align-items: center;
     justify-content: center;
 }
-button:hover{
+.button:hover{
     color: white;
     background-color: rgb(0, 119, 255);
     transition: 0.4s ease;
@@ -128,7 +128,7 @@ h1{
     }
     .content{
         display: flex;
-        background-color: aliceblue;
+        background-color: rgb(180, 253, 170);
         padding: 50px 25px;
         flex-direction: column;
         width: 70%;

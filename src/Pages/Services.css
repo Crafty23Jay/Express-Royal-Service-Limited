@@ -72,7 +72,7 @@
     justify-content: center;
 }
 .home-hero-btn:hover{
-    background-color: #0039ac;
+    background-color: #03b10c;
     transition: 0.4s ease;
 }
 
@@ -108,17 +108,17 @@
 .service-sec_1{
     width: 100vw;
     height: 50rem;
-    background-color: #F3D5D5;
+    background-color: #B4FDAA;
 }
 .service-sec_2{
     width: 100vw;
-    height: 50rem;
+    height: 52rem;
     background-color: #B3D5E9;
 }
 .service-sec_3{
     width: 100vw;
-    height: 54rem;
-    background-color: #A18EE7;
+    height: 58rem;
+    background-color: #B4FDAA;
 }
 
 
@@ -202,7 +202,7 @@
 
 
 #contact-card_2{
-    background-color: #F3D5D5;
+    background-color: #B4FDAA;
 }
 #contact-card_3{
     background-color: #BDE1F4;
@@ -246,6 +246,7 @@
         font-size: 1.2rem;
         width: 85%;
         text-align: center;
+        margin: 0;
 }
 .contact-h5{
     color: #142850;
@@ -310,6 +311,9 @@
         height: 8%;
         aspect-ratio: 16/6;
     }
+    .service-sec_3 {
+        height: 58rem;
+    }
 }
 
 
@@ -359,7 +363,7 @@
         background-color: transparent;
     }
     .service-sec_3{
-        height: fit-content;
+        height: fit-content !important;
         background-color: transparent;
     }
 
@@ -409,6 +413,9 @@
         height: 100%;
         aspect-ratio: 1/1.3;
     }
+    #contact-card_2{
+        background-color: #BDE1F4;
+    }
     .border-cont{
         justify-content: space-around;
         height: 95%;
@@ -437,26 +444,44 @@
 
 @media (max-width:418px) {
     .hero{
-        height: 87vh;
+        height: 94.5vh;
     }
+    .home-hero{
+        height: 94.5vh;
+    }
+   /* .hero-cont>h4{
+    font-size: 1.7rem;
+   } */
    .hero-cont>h1{
     font-size: 2.3rem;
    }
    .hero-cont>p{
     font-size: 1.1rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
+    margin-top: 0.5rem;
    }
    #service-hero>h1{
     font-size: 2.7rem;
-    line-height: 3.5rem;
+    line-height: 3.2rem;
    }
    #service-hero>p{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
+   }
+
+   .services>h1{
+    letter-spacing: 0.1rem;
+   }
+   .each-title{
+    gap: 0;
+   }
+   .each-title>p{
+    margin: 0;
    }
    .contact-card{
         width: 85%;
         height: 100%;
         aspect-ratio: 1/1.8;
+        background-color: white !important;
     }
     
 }
