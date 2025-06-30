@@ -22,6 +22,7 @@ import { TfiEmail } from "react-icons/tfi";
 import { RiContactsLine } from "react-icons/ri";
 import Nav from '../Components/Nav';
 import { Link } from 'react-router-dom';
+import Team from '../Components/Team';
 
 const Home = () => {
     return(
@@ -114,6 +115,9 @@ const Home = () => {
                     {/* </div> */}
                 </div>
             </div>
+
+                <Team />
+
             <div class="contact">
                 <div class="left-contact">
                     <div class="contact-details">
@@ -132,7 +136,6 @@ const Home = () => {
                         <div class="new-details">
                             <p class="left-contact-details">Email</p>
                             <Link to="mailto:shipservices.royalexpress@gmail.com" class="email-link"><p class="details">shipservices. royalexpress@gmail.com</p></Link>
-                            <Link to="mailto:supply@royalexpress.com" class="email-link"><p class="details">supply@royalexpress .com</p></Link>
                         </div>
                     </div>
                     <div class="contact-details">

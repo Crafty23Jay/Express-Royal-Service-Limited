@@ -110,6 +110,7 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    margin-bottom: 3rem;
     /* padding: 50px; */
 }
 
@@ -154,7 +155,7 @@ body {
     gap: 3rem;
     padding: 3rem 0;
     margin: auto;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     background-image: url(../images/home-form-bg.jpeg);
     background-size: cover;
     background-color: #3a3a3a;

@@ -457,11 +457,13 @@
     .home-hero{
         height: 94.5vh;
     }
-   /* .hero-cont>h4{
-    font-size: 1.7rem;
-   } */
+   .hero-cont>h4{
+    font-size: 1.5rem;
+   }
+    
    .hero-cont>h1{
-    font-size: 2.3rem;
+    font-size: 2rem;
+    margin: 0;
    }
    .hero-cont>p{
     font-size: 1.1rem;
@@ -469,8 +471,9 @@
     margin-top: 0.5rem;
    }
    #service-hero>h1{
-    font-size: 2.7rem;
-    line-height: 3.2rem;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    margin: 0.5rem 0;
    }
    #service-hero>p{
     font-size: 1.1rem;
