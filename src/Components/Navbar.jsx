@@ -1,11 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './Navbar.css'
 import Logo from '../images/ERSL.png'
 import { Link } from 'react-router-dom'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { MdCancelPresentation } from "react-icons/md";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 const Navbar = () => {
+  useEffect(()=> { AOS.init(); }, [])
   const [mobileNav, setMobileNav] = useState(false);
     const openMobileNav = () => {
       setMobileNav(!mobileNav)

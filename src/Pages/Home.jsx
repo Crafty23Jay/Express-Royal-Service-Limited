@@ -145,7 +145,7 @@ const Home = () => {
                         </div>
                         <div class="new-details">
                             <p class="left-contact-details">Phone</p>
-                            <p class="details">+237 675 99 72 91</p>
+                            <p class="details">+237675997291</p>
                         </div>
                     </div>
                 </div>

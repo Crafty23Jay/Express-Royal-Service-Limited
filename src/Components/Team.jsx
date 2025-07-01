@@ -1,6 +1,6 @@
 import React from 'react'
 import './Team.css'
-import Manager from '../images/manager.jpg'
+import Manager from '../images/manager.jpeg'
 
 
 const Team = () => {
@@ -13,6 +13,7 @@ const Team = () => {
             </span>
             <h4 class="mem-name">ACHIRI STEPHEN</h4>
             <p class="mem-post">Marketing Manager</p>
+            <p class="mem-numb">Phone: +237 675 99 72 91</p>
         </main>
     </section>
   )
