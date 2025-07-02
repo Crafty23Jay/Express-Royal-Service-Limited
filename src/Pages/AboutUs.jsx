@@ -6,6 +6,7 @@ import OnlineChat from '../Components/OnlineChat';
 import HeroAbout from '../Components/HeroAbout';
 import Nav from '../Components/Nav';
 import { Link } from 'react-router-dom';
+import FloatingChat from '../Components/FloatingChat';
 const AboutUs = () => {
   return (
     <section>
@@ -62,7 +63,7 @@ const AboutUs = () => {
           </div>
             <div className='Commitment-img'></div>
       </section>
-    <OnlineChat />
+    <FloatingChat />
     <Footer />
       
     </section>

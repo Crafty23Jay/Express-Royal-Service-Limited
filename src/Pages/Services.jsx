@@ -10,6 +10,7 @@ import ServSec2 from '../Components/ServSec2';
 import ServSec3 from '../Components/ServSec3';
 import OnlineChat from '../Components/OnlineChat';
 import Nav from '../Components/Nav';
+import FloatingChat from '../Components/FloatingChat';
 
 
 const Services = () => {
@@ -39,8 +40,7 @@ const Services = () => {
             <ServSec3 />
            
         </section>
-
-        <OnlineChat />
+        <FloatingChat />
 
         <Footer />
     </section>
