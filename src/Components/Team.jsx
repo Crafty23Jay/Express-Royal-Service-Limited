@@ -6,7 +6,7 @@ import Manager from '../images/manager.jpeg'
 const Team = () => {
   return (
     <section class="team-sec">
-        <h3>OUR TEAM MEMBERS</h3>
+        {/* <h3>OUR TEAM MEMBERS</h3> */}
         <main class="team-cont">
             <span class="mem-img">
                 <img src={Manager} alt="manager img" />

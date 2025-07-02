@@ -8,10 +8,11 @@ const OnlineChat = () => {
     <main class="chat-cont">
         <div class="rectangle">Online Chat</div>
         <Link to="https://wa.link/q09pso">
-          <botton class="circle">
+          <button class="circle">
               <MdChat class="icon"/>
-          </botton>
+          </button>
         </Link>
+
     </main> 
   )
 }

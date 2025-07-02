@@ -23,6 +23,7 @@ import { RiContactsLine } from "react-icons/ri";
 import Nav from '../Components/Nav';
 import { Link } from 'react-router-dom';
 import Team from '../Components/Team';
+import FloatingChat from '../Components/FloatingChat';
 
 const Home = () => {
     return(
@@ -160,7 +161,9 @@ const Home = () => {
             </div>
         </section>
 
-        <OnlineChat />
+        {/* <OnlineChat /> */}
+
+        <FloatingChat />
 
         <Footer />
 

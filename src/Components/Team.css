@@ -27,7 +27,7 @@
 .mem-img{
     width: 20rem;
     height: 100%;
-    aspect-ratio: 1/1.35;
+    aspect-ratio: 1/1.2;
     border-radius: 9rem;
     object-fit: cover;
     background-position: 50%;
@@ -79,7 +79,7 @@
     .mem-img{
     width: 16rem;
     height: 100%;
-    aspect-ratio: 1/1.2;
+    aspect-ratio: 1/1.45;
     /* background-color: aquamarine; */
     border-radius: 7rem;
     }
@@ -96,7 +96,7 @@
     .mem-img{
     width: 16rem;
     height: 100%;
-    aspect-ratio: 1/1.2;
+    aspect-ratio: 1/1.45;
     background-color: aquamarine;
     border-radius: 10rem;
     }
