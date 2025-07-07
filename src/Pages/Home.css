@@ -232,7 +232,7 @@ body {
     margin-bottom: 16px;
 }
 
-input:focus{
+input:focus, textarea:focus{
     border: none;
     outline: none;
     border: 2px solid #239ddb;
@@ -240,7 +240,19 @@ input:focus{
 [type="text"]{
     padding-left: 0.5rem;
 }
+[type="email"]{
+    padding-left: 0.5rem;
+}
+textarea{
+    padding-left: 0.5rem;
+}
 [type="text"]::placeholder{
+    color: #239ddb;
+}
+[type="email"]::placeholder{
+    color: #239ddb;
+}
+textarea::placeholder{
     color: #239ddb;
 }
 
