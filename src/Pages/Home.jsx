@@ -150,7 +150,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <form class="right-contact" action="https://formsubmit.co/shipservices.royalexpress@gmail.com" method="POST">
+                <form class="right-contact" action="https://formsubmit.co/supply@.com" method="POST">
                     <input type="text" placeholder="Name" class="contact-input" required />
                     <input type="text" placeholder="Email" class="contact-input" required />
                     <input type="text" placeholder="Message" class="contacts-input" required/>
