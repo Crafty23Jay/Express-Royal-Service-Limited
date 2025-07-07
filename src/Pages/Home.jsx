@@ -150,13 +150,16 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <form class="right-contact" action="https://formsubmit.co/supply@.com" method="POST">
-                    <input type="text" placeholder="Name" class="contact-input" required />
-                    <input type="text" placeholder="Email" class="contact-input" required />
-                    <input type="text" placeholder="Message" class="contacts-input" required/>
+                <form class="right-contact" action="https://formspree.io/f/xanjgyak" method="POST">
+                    <input type="text" name="name" placeholder="Name" class="contact-input" required />
+                    <input type="email" name="email" placeholder="Email" class="contact-input" required />
+                    <textarea name="message" placeholder="Message" class="contacts-input" required></textarea>
 
-                    <input type="hidden" name='_subject' value="New form message from Express Royal Service Ltd"/>
-                    <button class="contact-button" type='submit'>SEND MESSAGE</button>
+                    <input type="hidden" name="_subject" value="New form message from Express Royal Service Ltd" />
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input type="hidden" name="_template" value="table" />
+
+                    <button class="contact-button" type="submit">SEND MESSAGE</button>
                 </form>
             </div>
         </section>
