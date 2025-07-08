@@ -244,7 +244,9 @@ input:focus, textarea:focus{
     padding-left: 0.5rem;
 }
 textarea{
+    padding-top: 0.3rem;
     padding-left: 0.5rem;
+    font-family: Montserrat !important;
 }
 [type="text"]::placeholder{
     color: #239ddb;
